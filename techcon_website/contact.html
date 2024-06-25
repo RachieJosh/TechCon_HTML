@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About TechCon 2024</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="device=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="contact-info">
+        <h3>Email Address</h3>
+        <a href="mailto:contact@techcon2024.com">contact@techcon2024.com</a>
+      </div>
+
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <a href="https://twitter.com/techcon2024" target="_blank">Twitter</a>
+        <br />
+        <br />
+        <a href="https://facebook.com/techcon2024" target="_blank">Facebook</a>
+        <br />
+        <br />
+        <a href="https://instagram.com/techcon2024" target="_blank"
+          >Instagram</a
+        >
+        <br />
+        <br />
+        <a href="https://linkedin.com/company/techcon2024" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+
+      <div class="map">
+        <h3>Conference Venue</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019963740289!2d-122.41941608468166!3d37.77492927975813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064dfd1b8ff%3A0x2b334f70d1d4d582!2sMoscone%20Center!5e0!3m2!1sen!2sus!4v1623696656634!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="contact-form">
+        <h3>Contact Us Form</h3>
+        <form action="submit_contact.php" method="post">
+          <!-- Name Field -->
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required /> <br />
+          <br />
+
+          <!-- Email Field -->
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required /> <br />
+          <br />
+
+          <!-- Message Field -->
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea> <br />
+          <br />
+
+          <!-- Submit Button -->
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </main>
+    <br />
+    <br />
+
+    <footer>&copy copyright TechCon 2024.</footer>
+  </body>
+</html>
